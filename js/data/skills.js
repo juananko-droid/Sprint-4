@@ -26,9 +26,17 @@ export const skills = [
   {
     name: "Figma",
     icon: "https://cdn.simpleicons.org/figma/F24E1E",
-    state: "en progreso",
+    state: "dominada",
     level: "básico",
     description: "Diseño de interfaces y prototipado de aplicaciones web.",
+    tags: ["UI", "Prototipos"]
+  },
+  {
+    name: "Motero",
+    icon: "https://www.motociclismo.es/uploads/s1/13/79/70/86/nuevo-logo-de-motogp_2_790x454.jpeg",
+    state: "dominada",
+    level: "básico",
+    description: "Carreras regioneles, FEV Segundo puesto SBK.",
     tags: ["UI", "Prototipos"]
   }
 ];
