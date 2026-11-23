@@ -20,8 +20,13 @@ if (footerContainer) {
     footerContainer.innerHTML = footer;
 }
 
+import { resourcesGenerator } from "./utils/resoucesGeneratos.js";
+
 // Inicializar funcionalidades
 menu();
 darkMode();
 skillsList();
 createCheatsheetsList();
+resourcesGenerator();
+
+

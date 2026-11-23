@@ -1,6 +1,6 @@
 export const header = `
     <header class="site-header">
-        <div class="logo">JR</a>
+        <div class="logo">JR
         </div>
 
         <nav aria-label="Navegacion principal">
@@ -10,6 +10,8 @@ export const header = `
                 <li><a href="./index.html#skills">Habilidades</a></li>
                 <li><a href="./index.html#aficiones">Aficiones</a></li>
                 <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href=".index.html#cheatsheets">Cheatsheets</a>
+                <li><a href=".recursos.html">Recuros</a>
             </ul>
         </nav>
         

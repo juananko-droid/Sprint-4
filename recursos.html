@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Recursos | Mi Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div id="app">
+    <div id="header"></div>
+
+    <main class="resources-page">
+        <h1>Recursos para desarrolladores</h1>
+        <p>Mis herramientas para aprender Full Stack.</p>
+
+        <div class="tabs" role="tablist"
+             aria-label="Categorías de recursos">
+
+            <button class="tab active"
+                    id="tab-documentacion"
+                    type="button"
+                    role="tab"
+                    aria-selected="true"
+                    aria-controls="panel-documentacion"
+                    data-tab="documentacion">
+                Documentación
+            </button>
+
+            <button class="tab"
+                    id="tab-herramientas"
+                    type="button"
+                    role="tab"
+                    aria-selected="false"
+                    aria-controls="panel-herramientas"
+                    data-tab="herramientas">
+                Herramientas
+            </button>
+
+            <button class="tab"
+                    id="tab-practica"
+                    type="button"
+                    role="tab"
+                    aria-selected="false"
+                    aria-controls="panel-practica"
+                    data-tab="practica">
+                Práctica
+            </button>
+        </div>
+
+        <section id="panel-documentacion"
+                 class="tab-panel"
+                 role="tabpanel"
+                 aria-labelledby="tab-documentacion">
+            <h2>Documentación</h2>
+            <p>
+                <a href="https://developer.mozilla.org/es/"
+                   target="_blank" rel="noopener noreferrer">
+                    MDN Web Docs
+                </a>
+            </p>
+            <p>
+                <a href="https://javascript.info/"
+                   target="_blank" rel="noopener noreferrer">
+                    JavaScript.info
+                </a>
+            </p>
+        </section>
+
+        <section id="panel-herramientas"
+                 class="tab-panel"
+                 role="tabpanel"
+                 aria-labelledby="tab-herramientas"
+                 hidden>
+            <h2>Herramientas</h2>
+            <p>
+                <a href="https://code.visualstudio.com/"
+                   target="_blank" rel="noopener noreferrer">
+                    Visual Studio Code
+                </a>
+            </p>
+            <p>
+                <a href="https://github.com/"
+                   target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
+            </p>
+        </section>
+
+        <section id="panel-practica"
+                 class="tab-panel"
+                 role="tabpanel"
+                 aria-labelledby="tab-practica"
+                 hidden>
+            <h2>Práctica</h2>
+            <p>
+                <a href="https://www.freecodecamp.org/"
+                   target="_blank" rel="noopener noreferrer">
+                    freeCodeCamp
+                </a>
+            </p>
+            <p>
+                <a href="https://www.frontendmentor.io/"
+                   target="_blank" rel="noopener noreferrer">
+                    Frontend Mentor
+                </a>
+            </p>
+        </section>
+    </main>
+
+    <div id="footer"></div>
+</div>
+
+<script type="module" src="./js/main.js"></script>
+</body>
+</html>

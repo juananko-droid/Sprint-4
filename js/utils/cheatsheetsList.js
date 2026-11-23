@@ -15,7 +15,7 @@ export function createCheatsheetsList() {
         <img src="${item.icon}" alt="${item.name}" >
             
         <h3>${item.name}</h3>
-        <p> Cunsuta tu guía rápida de ${item.name} aquí</p>
+        <p> Consulta tu guía rápida de ${item.name} aquí</p>
        
      </a>
 `).join("");
