@@ -252,45 +252,47 @@ border-radius: 10px;
 @media (max-width: 768px) { .cheatsheet-nav { top: 65px; } .cheatsheet-page { padding: 1rem; } }
 
 /*RECURSOS */
- .resouces-page {
- max-width: 1000px;
- margin: 0 auto;
- padding: 2rem;
+
+/* RECURSOS */
+
+.resources-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
-.tabs  {
- display: flex;
- flex-wrap: wrap;
- gap: 10 px;
- margin: 2rem 0;
- 
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 2rem 0;
 }
 
 .tab {
-  padding: 12px 20px;
-  border: 1px solid #aaa;
-  border-radius: 8px;
-  background-color: #eee;
-  cursor: pointer;
+    padding: 12px 20px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    background-color: #eee;
+    cursor: pointer;
 }
-.tab-active {
-  background-color: #2563eb;
-  color: white;
-   
+
+.tab.active {
+    background-color: #2563eb;
+    color: white;
 }
 
 .tab-panel {
-  padding: 1.5rem;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
 }
+
 .tab-panel[hidden] {
-  display: none;
+    display: none;
 }
 
 /*RESPONSIVE SPRINT 5*/
-@media (max-whith: 600px) {
+@media (max-width: 600px) {
 .cheatsheet-page,
 .resources-page {
   padding: 1rem;
@@ -299,7 +301,7 @@ border-radius: 10px;
 .cheatsheet-nav {
   top: 65px;
   flex-direction: column;
-  gap 5px;
+  gap: 5px;
 }
 
 .cheatsheet-nav a {
@@ -327,17 +329,15 @@ border-radius: 10px;
 }
 #app.dark-mode .cheatsheet-nav a {
   color: #f5f5f5;
-
-}
 #app.dark-mode .tab {
-  background-color: 374151;
-
+    background-color: 374151;
 }
-#app.dark-mode tab.active {
-  background-color: 2563eb;
 
+#app.dark-mode tab.active {
+    background-color: 2563eb;
+}
 }
 #app.dark-mode .tab-panel {
   border-color: #555;
-  
+
 }

@@ -10,8 +10,8 @@ export const header = `
                 <li><a href="./index.html#skills">Habilidades</a></li>
                 <li><a href="./index.html#aficiones">Aficiones</a></li>
                 <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href=".index.html#cheatsheets">Cheatsheets</a>
-                <li><a href=".recursos.html">Recuros</a>
+                <li><a href="./index.html#cheatsheets">Cheatsheets</a></li>
+                <li><a href="./recursos.html">Recursos</a></li>
             </ul>
         </nav>
         
