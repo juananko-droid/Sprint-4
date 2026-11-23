@@ -1,32 +1,30 @@
-// export default function DarkMode() {
-//     const button = document.querySelector('#dark-mode-button');
-//     const page = document.querySelector('#app');
+export default function darkMode() {
+    const button = document.querySelector("#dark-mode-button");
+    const page = document.querySelector("#app");
 
-//     if (!button || !page) {
-//         return;
-//     }
+    if (!button || !page) return;
 
-//     button.addEventListener('click', () => {
-//         const isDark = page.classList.toggle('dark-mode');
-//         button.textContent = isDark ? '🌙' : '☀️';
-//         button.setAttribute(
-//             'aria-label',
-//             isDark ? 'Activar modo claro' : 'Activar modo oscuro'
-//         );
-//     });
-// }
-page.classList.toggle("dark-mode");
+    const savedTheme = localStorage.getItem("theme");
 
-const isDark = page.classList.contains("dark-mode");
+    if (savedTheme === "dark") {
+        page.classList.add("dark-mode");
+    }
 
-localStorage.setItem(
-    "theme",
-    isDark ? "dark" : "light"
-);
+    updateButton();
 
-updateButton();
+    button.addEventListener("click", () => {
+        const isDark = page.classList.toggle("dark-mode");
 
-function updateButton() {
-    const isDark = page.classList.contains("dark-mode");
-    button.textContent = isDark ? "🌙" : "☀️";
+        localStorage.setItem(
+            "theme",
+            isDark ? "dark" : "light"
+        );
+
+        updateButton();
+    });
+
+    function updateButton() {
+        const isDark = page.classList.contains("dark-mode");
+        button.textContent = isDark ? "🌙" : "☀️";
+    }
 }

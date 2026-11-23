@@ -10,7 +10,7 @@ export function createCheatsheetsList() {
     if (!container) return;
 
     container.innerHTML = cheatsheets.map(item => `
-        <a heref="${item.link}" class="cheatsheet-card">
+        <a href="${item.link}" class="cheatsheet-card">
             
         <img src="${item.icon}" alt="${item.name}" >
             

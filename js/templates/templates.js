@@ -1,7 +1,6 @@
 export const header = `
     <header class="site-header">
-        <div class="logo">
-            <a href="./index.html">Mi Portfolio</a>
+        <div class="logo">JR</a>
         </div>
 
         <nav aria-label="Navegacion principal">
@@ -23,6 +22,7 @@ export const header = `
             </button>
         </div>
     </header>
+
 `;
 
 export const footer = `
