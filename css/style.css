@@ -334,7 +334,7 @@ border-radius: 10px;
 }
 
 #app.dark-mode tab.active {
-    background-color: 2563eb;
+    background-color: #2563eb;
 }
 }
 #app.dark-mode .tab-panel {

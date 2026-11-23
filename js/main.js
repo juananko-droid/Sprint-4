@@ -20,7 +20,7 @@ if (footerContainer) {
     footerContainer.innerHTML = footer;
 }
 
-import { resourcesGenerator } from "./utils/resoucesGeneratos.js";
+import { resourcesGenerator } from "./utils/resoucesGenerator.js";
 
 // Inicializar funcionalidades
 menu();
