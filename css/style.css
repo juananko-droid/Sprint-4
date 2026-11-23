@@ -405,3 +405,58 @@ border-radius: 10px;
 #app.dark-mode .logo a:focus-visible {
     color: #ff0000;
 }
+
+
+/* SECCIONES DE AFICIONES */
+
+.aficion {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: #f1f5f9;
+}
+
+.aficion h2 {
+    margin-bottom: 15px;
+    color: #2563eb;
+}
+
+.aficion p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.aficion img {
+    display: block;
+    max-width: 100%;
+    width: 420px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+/* MODO OSCURO */
+
+#app.dark-mode .aficion {
+    background-color: #1e293b;
+    color: #ffffff;
+}
+
+#app.dark-mode .aficion h2 {
+    color: #93c5fd;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 600px) {
+    .aficion {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .aficion img {
+        width: 100%;
+    }
+}
