@@ -1,7 +1,8 @@
 export const header = `
     <header class="site-header">
-        <div class="logo">JR
-        </div>
+        <div class="logo">
+    <a href="./index.html" aria-label="Volver al inicio">JR</a>
+</div>
 
         <nav aria-label="Navegacion principal">
             <ul id="nav-links" class="nav-links">
